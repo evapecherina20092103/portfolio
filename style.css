@@ -53,3 +53,9 @@ li:hover{
 .aaa{
     width:830px;
     height:550px;
+}
+main{
+    display:flex;
+    justify-content: center;
+}
+    
