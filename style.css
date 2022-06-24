@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    background-color: MediumAquamarine;
+}
+footer a{
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin-right: 120px;
+    margin-left: 20px;
+}
+footer{
+    background-color: darkgreen;
+    padding-bottom: 150px;
+    padding-top: 20px;
+}
+nav{
+    background-color: lightgreen;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: darkgreen;
+    border: 1px solid rgb(93, 250, 172);
+    border-radius: 15px;
+    background-color: rgb(93, 250, 172);
+}
+p img{
+    display: flex;
+    justify-content: center;
+}
+.play::before{
+    content: url("https://img.icons8.com/stickers/35/000000/laptop-application.png");
+}
+li{
+   list-style-type: none; 
+}
+.pool::before{
+    content: url("https://img.icons8.com/fluency/35/000000/swimming-pool.png");
+}
+.vebs::before{
+    content: url("https://img.icons8.com/color/35/000000/domain--v1.png");
+}
+li:hover{
+    border: 5px dashed darkgreen;
+    border-radius: 10px;
+    padding: 8px;
+    transition: 1s ease-out;
+}
