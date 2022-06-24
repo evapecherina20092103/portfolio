@@ -20,11 +20,16 @@ nav{
     text-align: center;
     padding: 20px
 }
+.link-nav:hover{
+    border-right: 2px solid darkgreen;
+    border-left: darkgreen 2px solid;
+    transition: 1s linear;
+}
 nav a{
     padding: 10px;
     text-decoration: none;
     color: darkgreen;
-    border: 1px solid rgb(93, 250, 172);
+    border: 2px solid rgb(93, 250, 172);
     border-radius: 15px;
     background-color: rgb(93, 250, 172);
 }
@@ -72,8 +77,4 @@ h1:hover{
 }
 main p{
     margin:28px ;
-}
-main{
-    display:flex;
-    justify-content: center;
 }
