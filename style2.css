@@ -20,17 +20,22 @@ nav{
     text-align: center;
     padding: 20px
 }
+.link-nav:hover{
+    border-right: 2px solid darkgreen;
+    border-left: darkgreen 2px solid;
+    transition: 1s linear;
+}
 nav a{
     padding: 10px;
     text-decoration: none;
     color: darkgreen;
-    border: 1px solid rgb(93, 250, 172);
+    border: 2px solid rgb(93, 250, 172);
     border-radius: 15px;
     background-color: rgb(93, 250, 172);
 }
 p{
     color: darkgreen;
-    font-size: 18px;
+    font-size: 20px;
 }
 .link-text{
     border: 2px solid lightblue;
@@ -43,7 +48,17 @@ p{
     border: blue 4px solid;
     transition: 0.6s linear;
 }
-main{
-    display:flex;
-    justify-content: center;
+h1:hover{
+    text-transform: uppercase;
+    background: repeating-linear-gradient(darkgreen, darkgreen 3px, lightgreen 3px, lightgreen 5px);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #183D58;
+    transition: 1s linear;
+}
+h1{
+    background: MediumAquamarine;
+    color: darkgreen;
+    text-align: center;
+    -webkit-background-clip: text;
 }
