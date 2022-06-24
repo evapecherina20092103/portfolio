@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    background-color: MediumAquamarine;
+}
+footer a{
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin-right: 120px;
+    margin-left: 20px;
+}
+footer{
+    background-color: darkgreen;
+    padding-bottom: 150px;
+    padding-top: 20px;
+}
+nav{
+    background-color: lightgreen;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: darkgreen;
+    border: 1px solid rgb(93, 250, 172);
+    border-radius: 15px;
+    background-color: rgb(93, 250, 172);
+}
+p{
+    color: darkgreen;
+    font-size: 18px;
+}
+li:hover{
+    border: LimeGreen 5px solid;
+    color: white;
+    transition: 1s linear;
+    background-color: darkgreen;
+    border-radius: 20px;
+    padding: 8px;
+}
+li{
+    border: 2px solid mediumaquamarine;
+}
+h2{
+    text-align: center;
+}
+h1:hover{
+    font: bold 3em Arial, sans-serif;
+    text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0, 
+                 #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, 
+                 #cad5e2 5px 5px 0;
+                 transition: 2s ease-out;
+   }
+   h1{
+        text-align: center;
+        color: darkgreen;
+   }
+.link-text:hover{
+    background-color: blue;
+    color: LightSkyBlue;
+    box-shadow: 6px -8px 5px 5px SteelBlue;
+    transition: 1s ease-out;
+}
+.link-text{
+    border: 2px blue solid;
+    text-decoration: none;
+    border-radius: 22px;
+    padding: 8px;
+    margin: 5px;
+}
+main p{
+    margin:28px ;
+}
