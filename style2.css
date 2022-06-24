@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    background-color: MediumAquamarine;
+}
+footer a{
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin-right: 120px;
+    margin-left: 20px;
+}
+footer{
+    background-color: darkgreen;
+    padding-bottom: 150px;
+    padding-top: 20px;
+}
+nav{
+    background-color: lightgreen;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: darkgreen;
+    border: 1px solid rgb(93, 250, 172);
+    border-radius: 15px;
+    background-color: rgb(93, 250, 172);
+}
+p{
+    color: darkgreen;
+    font-size: 18px;
+}
+.link-text{
+    border: 2px solid lightblue;
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.link-text:hover{
+    border: blue 4px solid;
+    transition: 0.6s linear;
+}
